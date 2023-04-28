@@ -1,0 +1,391 @@
+@charset "utf-8";
+@import url("../webfonts/Inter/stylesheet.css");
+@import url("../webfonts/Bukhari_Script/stylesheet.css");
+@import url("../webfonts/Belleza_Regular/stylesheet.css");
+body {
+	margin: 0px;
+	margin-top: -20px;
+	padding: 0px;
+	border: 0px;
+}
+
+.partition{
+	height:20%;
+}
+
+.partition2{
+	height:15%;
+}
+
+.partition3{
+	height:5%;
+}
+.ScrollUp{
+	transform: scaleY(-1);
+	position: relative;
+	margin-left: 93%;
+}
+
+.ScrollDown{
+	position: relative;
+	margin-left: 93%;
+}
+
+#space {
+	background-color: #DECDBB;
+    min-height: 50px;
+}
+
+#AfraSpace {
+	background-color: #DECDBB;
+    min-height: 75px;
+}
+#FirstPage {
+	margin-top:-25px;
+    background-color: #DECDBB;
+	padding-bottom: 20px;
+}
+#FirstPage h1 {
+    font-family: "Bukhari Script";
+	color: #6D5B47;
+	display: inline-block;
+    margin-top: 10%;
+    margin-left: 20%;
+    text-align: center;
+    font-size: 70px;
+}
+
+#FirstPage #Cartoon {
+	position: absolute;
+  	top: 25%;
+  	left: 70%;
+}
+
+#FirstPage #Scroll {
+	position: relative;
+    margin-top: 5%;
+    margin-left: 93%;
+}
+
+#FirstPage h4 {
+    font-family: Inter;
+	color: #FFF;
+	display: block;
+    margin-top: -2%;
+    margin-left: 15%;
+    font-size: 25px;
+}
+
+#navigation ul
+{
+	padding: 0px;
+	margin-top: 1%;
+	list-style-type: none;
+}
+
+#navigation ul li {
+    float: left;
+    width: 20%;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Inter;
+}
+
+#navigation ul li a
+{
+	display: block;
+	background-color: #6D5B47;
+	color: #FFFF;
+	text-decoration: none;
+	padding: 10px 20px;
+	margin: 10px;
+	border-radius: 10px;
+}
+
+#navigation ul li a:hover, #navigation ul li a:active, #navigation ul li a:focus, #navigation ul li a.thispage{
+	background-color: #4B3F31;
+	text-decoration: none;
+}
+
+#AboutMe {
+	padding-top: 2%;
+	padding-bottom: 2%;
+    color: #DECDBB;
+    background-color: #6D5B47;
+    font-family: "Belleza Regular";
+}
+
+#AboutMe h1 {
+	margin: auto;
+	text-align: center;
+	position: relative;
+	top: -100px;
+	font-size: 60px;
+}
+
+.row {
+ margin-top: -1%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.col {
+  width: calc(33.33% - 10px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: -3%;
+  margin-bottom: 3%;
+}
+
+#AboutMe #container img {
+  max-width: 100%;
+  height: 20%;
+}
+
+#AboutMe h4 {
+	font-size: 25px;
+	margin-left: 1.5%;
+	margin-bottom: -0.1%;
+}
+#AboutMe #p1{
+	font-size: 15px;
+	position: absolute;
+  	top: 138%;
+  	left: 14%;
+ 	max-width: 80px;
+	text-align: center;
+	color:#6D5B47;
+}
+
+#AboutMe #p2{
+	font-size: 15px;
+	position: absolute;
+  	top: 138%;
+  	left: 48%;
+ 	max-width: 80px;
+	text-align: center;
+	color:#6D5B47;
+}
+#AboutMe #p3{
+	font-size: 15px;
+	position: absolute;
+  	top: 138%;
+  	left: 82%;
+ 	max-width: 80px;
+	text-align: center;
+	color:#6D5B47;
+}
+#AboutMe #p4{
+	position: absolute;
+  	top: 167%;
+  	left: 14%;
+ 	max-width: 80px;
+	font-size: 15px;
+	text-align: center;
+	color:#6D5B47;
+}
+
+#AboutMe #Latifahp4{
+	position: absolute;
+  	top: 167%;
+  	left: 14%;
+ 	max-width: 100px;
+	font-size: 15px;
+	text-align: center;
+	color:#6D5B47;
+}
+
+#AboutMe #p5{
+	position: absolute;
+  	top: 167%;
+  	left: 48%;
+ 	max-width: 80px;
+	font-size: 15px;
+	text-align: center;
+	color:#6D5B47;
+}
+
+#AboutMe #p6{
+	position: absolute;
+  	top: 169%;
+  	left: 82%;
+ 	max-width: 80px;
+	font-size: 15px;
+	text-align: center;
+	color:#6D5B47;
+}
+
+#AboutMe #Raghadp6{
+	position: absolute;
+  	top: 164%;
+  	left: 81%;
+ 	max-width: 100px;
+	font-size: 15px;
+	text-align: center;
+	color:#6D5B47;
+}
+
+#AboutMe .ScrollUp{
+	margin-top: -1%;
+}
+#AboutMe .ScrollDown{
+	margin-top: -3%;
+}
+
+#Skills {
+    background-color: #DECDBB;
+}
+
+#Skills2{
+	margin-right: auto;
+	margin-left: 10%;
+	float: left;
+}
+
+#Skills h1{
+	width: 45%;
+	padding-right: 2.5%;
+	float: right;
+	padding-bottom: 10px;
+	font-family: "Belleza Regular";
+	font-size: 80px;
+	text-align: center;
+	color:#6D5B47;
+}
+
+#Skills h4{
+	width: 45%;
+	padding-right: 2.5%;
+	float: right;
+	padding-bottom: 10px;
+	color: white;
+	font-family: "Belleza Regular";
+	font-size: 25px;
+	text-align: center;
+}
+
+#Skills .ScrollUp{
+	margin-bottom: 2%;
+}
+
+#SKills #ScrollDown{
+	mardin-bottom: 2%;
+}
+#Skills .ScrollDown{
+	margin-top: 2%;
+}
+
+#Education {
+    background-color: #6D5B47;
+}
+
+
+#Education2{
+	margin-top: -40%;
+	margin-left: 50%;
+	position:absolute;
+	float: right;
+}
+
+#Education h1{
+	margin-top:-3%;
+	width: 100%;
+	padding-left: 2.5%;
+	float: left;
+	font-family: "Belleza Regular";
+	font-size: 150px;
+	color:#DECDBB;
+}
+
+#Education p, ul{
+	width: 100%;
+	float: left;
+	color: white;
+	font-family: "Belleza Regular";
+	font-size: 25px;
+}
+
+#Education p {
+	margin-top:-5%;
+	padding-left: 7%;
+}
+
+#Education ul {
+	margin-top:-1%;
+	padding-left: 8%;
+}
+#Schools{
+	margin-top:-7%;
+}
+
+#Courses{
+	margin-top:3%;
+}
+
+#Education h4{
+	width: 100%;
+	padding-left: 3%;
+	float: left;
+	color: white;
+	font-family: "Belleza Regular";
+	font-size: 25px;
+}
+#Education .ScrollUp{
+	margin-bottom: 2%;
+}
+#Education .ScrollDown{
+	margin-top: 2%;
+}
+
+#Video {
+    background-color: #DECDBB;
+}
+
+#Video h1{
+	margin-top:-5%;
+	padding-left: 2.5%;
+	font-family: "Belleza Regular";
+	font-size: 150px;
+	color:#6D5B47;
+}
+
+#Video .ScrollUp{
+	margin-top:1.5%;
+	padding-right: 1%;
+}
+video{
+	margin-left: 35%;
+	margin-bottom: 3%;
+	margin-top:-15%;
+}
+
+#footer {
+  background-color: #6D5B47;
+  margin-top: -3%;
+  overflow: hidden; /* clear the float */
+  margin:auto;
+  padding:1%;
+}
+
+#footer p {
+  color: white;
+  font-family: Inter;
+  margin: 0; /* remove default margin */
+}
+
+#f1 {
+  float: left;
+}
+
+#f2 {
+  float: right;
+  margin-right:3%;
+}
+
+#f2 a{
+  color: white;
+  text-decoration:none;
+}
