@@ -284,10 +284,10 @@ body {
 
 
 #Education2{
-	margin-top: -40%;
-	/*
-	margin-left: 50%;
-	*/
+	/*margin-top: -40%;*/
+	
+	margin-left: -10%;
+	
 	position:absolute;
 	float: right;
 }
